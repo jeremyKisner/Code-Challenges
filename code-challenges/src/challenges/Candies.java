@@ -6,13 +6,13 @@ package challenges;
  * Determine how many pieces of candy will be eaten by all the children together. 
  * Individual pieces of candy cannot be split.
  */
+
 public class Candies {
 	public static void main(String[] args) {
-		System.out.println(candies(3,10));
 		candies(3,10);
 	}
 	
-	static int candies(int n, int m) {
+	public static int candies(int n, int m) {
 		return (m/n)*n;
 	}
 }
