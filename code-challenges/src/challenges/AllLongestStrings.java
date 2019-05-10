@@ -25,10 +25,8 @@ public class AllLongestStrings {
 		}
 
 		for (int i = 0; i < inputArray.length; i++) {
-			int index = 0;
 			if (inputArray[i].length() == longestStringLength) {
 				list.add(inputArray[i]);
-				index++;
 			}
 		}
 
